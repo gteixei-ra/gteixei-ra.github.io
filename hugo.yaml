@@ -1,0 +1,69 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: site do texis
+theme: ["PaperMod"]
+
+taxonomies:
+  tag: "tags"
+params:
+  homeInfoParams:
+    Title: Hello world, Eu sou a/ou [Seu Nome]! 👩🏻‍💻
+    Content: Bem vindos ao meu blog, onde eu compartilho minha jornada.
+
+  socialIcons:
+  - name: github
+    url: 'https://github.com/[Seu nome]'
+  - name: youtube
+    url: 'https://www.youtube.com/[Seu nome]'
+  - name: twitter
+    url: 'https://twitter.com/[Seu nome]'
+  - name: instagram
+    url: 'https://www.instagram.com/[Seu nome]'
+  - name: other
+    url: 'https://bento.me/[Seu nome]'
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon-16x16.png"
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
+    - identifier: archive
+      name: archive
+      url: /archive/
+      weight: 20
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 40
+  # For search: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
