@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://gteixe-ra.github.io
 languageCode: en-us
 title: site do texis
 theme: ["PaperMod"]
@@ -7,18 +7,18 @@ taxonomies:
   tag: "tags"
 params:
   homeInfoParams:
-    Title: Hello world, Eu sou a/ou [Seu Nome]! 👩🏻‍💻
+    Title: Hello world, Eu sou o Texis! 👩🏻‍💻
     Content: Bem vindos ao meu blog, onde eu compartilho minha jornada.
 
   socialIcons:
   - name: github
-    url: 'https://github.com/[Seu nome]'
+    url: 'https://github.com/gteixei-ra'
   - name: youtube
     url: 'https://www.youtube.com/[Seu nome]'
   - name: twitter
     url: 'https://twitter.com/[Seu nome]'
   - name: instagram
-    url: 'https://www.instagram.com/[Seu nome]'
+    url: 'https://www.instagram.com/gteixei.ra'
   - name: other
     url: 'https://bento.me/[Seu nome]'
 
